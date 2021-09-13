@@ -35,8 +35,7 @@ HELP_TEXT = """**List Command:**
 
 @Client.on_message(filters.command(["start", "start@{USERNAME_BOT}"]))
 async def start(client, message):
-    await message.reply("**ðŸ‘‹ I'm alive**")
-
+    await message.reply(" **I'am Alive**\n\n**Unreal TV**\nBot yang dapat stream video local file atau youtube di obrolan suara Group/Channel\n\n=====================\n• `Creator    :` [Tanaka](t.me/GapernahDesah)\n• `Group Chat :` [Join](t.me/UnrealBabies)\n• `Channel    :` [Subscribe](t.me/SexualSins58)")
 @Client.on_message(filters.command(["help", "help@{USERNAME_BOT}"]))
 async def help(client, message):
     await message.reply(HELP_TEXT)

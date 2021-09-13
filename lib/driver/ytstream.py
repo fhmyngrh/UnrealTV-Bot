@@ -62,7 +62,7 @@ async def ytstream(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        '📣 Channel support', url='https://t.me/feyystatus',
+                        'OWNER', url='https://t.me/GapernahDesah',
                     ),
                 ],
             ],
@@ -103,7 +103,7 @@ async def cstream(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        '📣 Channel support', url='https://t.me/feyystatus',
+                        'OWNER', url='https://t.me/GapernahDesah',
                     ),
                 ],
             ],

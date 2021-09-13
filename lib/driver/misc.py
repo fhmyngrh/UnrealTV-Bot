@@ -57,11 +57,6 @@ async def ping_(client: Client, message: Message):
     latency = (end - start).microseconds / 1000
     await msg.edit(f"**Latency:** `{latency} ms`")
 
-@Client.on_message(filters.command(["repo", "repo@{USERNAME_BOT}"]))
-async def repo(client, message):
-    repo = "https://github.com/galihmrd/tg-stream-video"
-    await message.reply(f"**Source code:** [Here]({repo})")
-
 @Client.on_message(filters.command(["schedule",
                                     "schedule@{USERNAME_BOT}"]) & public_filters)
 async def sch(client, message):

@@ -60,7 +60,7 @@ async def stream(client, m: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                '📣 Channel support', url='https://t.me/feyystatus',
+                                'OWNER', url='https://t.me/GapernahDesah',
                             ),
                         ],
                     ],
@@ -96,7 +96,7 @@ async def stream(client, m: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            '📣 Channel support', url='https://t.me/feyystatus',
+                            'OWNER', url='https://t.me/GapernahDesah',
                         ),
                     ],
                 ],
@@ -140,7 +140,7 @@ async def cstream(client, m: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                '📣 Channel support', url='https://t.me/feyystatus',
+                                'OWNER', url='https://t.me/GapernahDesah',
                             ),
                         ],
                     ],
@@ -174,7 +174,7 @@ async def cstream(client, m: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            '📣 Channel support', url='https://t.me/feyystatus',
+                            'OWNER', url='https://t.me/GapernahDesah',
                         ),
                     ],
                 ],
